@@ -1,0 +1,78 @@
+.footer-subscribe{
+    padding: 7rem 0;
+    background-image: url(../Image/footer-subscribe.png);
+}
+.subscribe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 6rem 9rem;
+    border-radius: 10px;
+    gap: 0 7rem;
+    &-title{
+        max-width: 45rem;
+    }
+    &-h3{
+        font-size: 2.9rem;
+        margin-bottom: 1.5rem;
+    }
+    &-form{
+        width: 52rem;
+    }
+    &-form-top{
+        display: flex;
+        margin-bottom: 1.5rem;   
+    }
+    &-label{
+        vertical-align: top;
+        font-size: 1.4rem;
+        color: $gray;
+    }
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 6rem 0;
+    &-input{
+        background-color: #eff3f7;
+    }
+    &-info{
+        font-size: 1.4rem;
+        font-weight: 400;
+        &-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            max-width: 19rem;
+        }
+        &-p{
+            display: inline-block;
+            margin: 1rem 0;
+        }
+        &-span{
+            display: block;
+            color: $gray;
+            
+        }
+    }
+    &-menu{
+        &-h3{
+            font-weight: 500;
+            margin-bottom: 3.5rem;
+        }
+    }
+    &-item{
+        display: flex;
+        list-style: none;
+        margin: 2rem 0;
+        font-weight: 400;
+    }
+}
+.social-media-logo{
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+}

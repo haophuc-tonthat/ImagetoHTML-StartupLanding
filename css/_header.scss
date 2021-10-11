@@ -1,0 +1,77 @@
+.header{
+    background-image: url(../Image/background.png);
+    padding-top: 2.5rem;
+    padding-bottom: 11rem;
+    &-top{
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &-logo{
+        margin-right: 6.2rem;
+    }
+    &-get-start{
+        color: $orange;
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+    }
+    &-get-start:hover{
+        color: $text-color;
+    }
+    &-content{
+        padding-top: 12.5rem;
+        max-width: 51rem;
+    }
+    &-title{
+        font-size: 4.6rem;
+        margin-bottom: 5.3rem;
+        line-height: 7rem;
+        
+    }
+    &-subscribe{
+        display: flex;
+        margin-top: 4.5rem;
+    }
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 4rem;
+}
+.sponsor{
+    margin-top: 4.3rem;
+    &-items{
+        display: flex;
+        gap: 0 3rem;
+        align-items: center;
+        color: $gray;
+    }
+    &-image{
+        max-height: 2.8rem;
+    }
+}
+.subscribe-input{
+    flex: 0 1 70%;
+    padding: 1.8rem;
+    border-radius: 10px;
+    border: none;
+    margin-right: 1.5rem;
+    font-family: "Poppins", sans-serif;
+}
+.subscribe-btn{
+    font-family: "Poppins", sans-serif;
+    flex: 0 1 30%;
+    background-color: $orange;
+    padding: 2rem 2.8rem;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.subscribe-btn:hover{
+    background-color: $text-color;
+}

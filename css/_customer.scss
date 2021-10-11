@@ -1,0 +1,18 @@
+.customer{
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    &-image{
+        display: inline-block;
+        max-width: 70rem;
+        margin-right: 4rem;
+    }
+    &-content{
+        display: inline-block;
+        max-width: 45.7rem;
+        vertical-align: top;
+    }
+    &-text{
+        margin-bottom: 2rem;
+    }
+}
